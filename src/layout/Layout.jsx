@@ -16,6 +16,7 @@ const components = [
   { name: "MultiSelect Combobox", path: "/components/multi-select-combobox" },
   { name: "Debounced Search", path: "/components/debounced-search" },
   { name: "Debounced Search with Tanstack Query", path: "/components/debounced-search-with-tanstack-query" },
+  { name: "Infinite Scroll", path: "/components/infinite-scroll" },
 ];
 
 const Layout = () => {
