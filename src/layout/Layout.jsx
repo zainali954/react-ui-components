@@ -15,6 +15,7 @@ const components = [
   { name: "Combobox", path: "/components/combobox" },
   { name: "MultiSelect Combobox", path: "/components/multi-select-combobox" },
   { name: "Debounced Search", path: "/components/debounced-search" },
+  { name: "Debounced Search with Tanstack Query", path: "/components/debounced-search-with-tanstack-query" },
 ];
 
 const Layout = () => {
@@ -49,9 +50,10 @@ const Layout = () => {
             <NavLink
               key={comp.path}
               to={comp.path}
+              title={comp.name}
               onClick={() => setIsMenuOpen(false)}
               className={({ isActive }) =>
-                `w-full px-4 py-2 text-left rounded-lg text-sm font-medium transition ${
+                `w-full px-4 py-2 text-left rounded-lg text-sm font-medium transition truncate ${
                   isActive
                     ? "bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-white"
                     : "text-neutral-800 dark:text-neutral-100 hover:bg-neutral-100 dark:hover:bg-neutral-800 hover:text-neutral-900 dark:hover:text-white"
