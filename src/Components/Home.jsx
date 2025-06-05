@@ -1,4 +1,3 @@
-import Layout from "../layout/layout";
 import ComponentCard from "./ComponentCard";
 
 

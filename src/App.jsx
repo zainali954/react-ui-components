@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SelectListDemo from "./UI/SelectList/Demo";
 import ComboboxDemo from "./UI/Combobox/Demo";
 import MultiSelectDemo from "./UI/Multi Select Combobox/Demo";
-import Layout from "./layout/layout";
+import Layout from "./layout/Layout";
 import Home from './Components/Home'
 
 function App() {
