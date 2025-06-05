@@ -6,8 +6,8 @@ const components = [
   { title: "Combobox", route: "/components/combobox" },
   { title: "MultiSelect Combobox", route: "/components/multi-select-combobox" },
   { title: "Infinite Scroll", route: "/components/infinite-scroll" },
-  { title: "Debounced Search", route: "/components/debounce-search" },
-  { title: "Debounced Search With Tanstack Query", route: "/components/debounce-search-with-tanstack-query" },
+  { title: "Debounced Search", route: "/components/debounced-search" },
+  { title: "Debounced Search With Tanstack Query", route: "/components/debounced-search-with-tanstack-query" },
 ];
 
 const Home = () => {

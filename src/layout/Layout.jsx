@@ -14,6 +14,7 @@ const components = [
   { name: "Selectlist", path: "/components/selectlist" },
   { name: "Combobox", path: "/components/combobox" },
   { name: "MultiSelect Combobox", path: "/components/multi-select-combobox" },
+  { name: "Debounced Search", path: "/components/debounced-search" },
 ];
 
 const Layout = () => {

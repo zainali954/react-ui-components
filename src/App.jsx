@@ -4,6 +4,7 @@ import ComboboxDemo from "./UI/Combobox/Demo";
 import MultiSelectDemo from "./UI/Multi Select Combobox/Demo";
 import Layout from "./layout/Layout";
 import Home from './Components/Home'
+import DebouncedSearchNormalDemo from "./UI/Debounced Search/Demo";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/components/selectlist" element={<SelectListDemo />} />
           <Route path="/components/combobox" element={<ComboboxDemo />} />
           <Route path="/components/multi-select-combobox" element={<MultiSelectDemo />} />
+          <Route path="/components/debounced-search" element={<DebouncedSearchNormalDemo />} />
         </Route>
       </Routes>
     </BrowserRouter>
