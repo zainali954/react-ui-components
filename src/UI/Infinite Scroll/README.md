@@ -47,7 +47,7 @@ components/
 └── InfiniteScroll.jsx
 ```
 
-> 🔗 **Source File:** [InfiniteScroll.jsx](https://github.com/zainali954/react-ui-components/tree/main/src/UI/Infinite%20Scroll/Index.jsx)
+> 🔗 **Source File:** [InfiniteScroll.jsx](https://github.com/zainali954/react-ui-components/tree/main/src/UI/Infinite%20Scroll/InfiniteScroll.jsx)
 
 ---
 

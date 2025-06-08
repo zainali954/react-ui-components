@@ -17,6 +17,8 @@ const components = [
   { name: "Debounced Search", path: "/components/debounced-search" },
   { name: "Debounced Search with Tanstack Query", path: "/components/debounced-search-with-tanstack-query" },
   { name: "Infinite Scroll", path: "/components/infinite-scroll" },
+  { name: "Button", path: "/components/button" },
+  { name: "Dialog", path: "/components/dialog" },
 ];
 
 const Layout = () => {

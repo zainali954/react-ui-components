@@ -8,6 +8,8 @@ const components = [
   { title: "Infinite Scroll", route: "/components/infinite-scroll" },
   { title: "Debounced Search", route: "/components/debounced-search" },
   { title: "Debounced Search With Tanstack Query", route: "/components/debounced-search-with-tanstack-query" },
+  { title: "Button", route: "/components/button" },
+  { title: "Dialog", route: "/components/dialog" },
 ];
 
 const Home = () => {
