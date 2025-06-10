@@ -19,6 +19,7 @@ const components = [
   { name: "Infinite Scroll", path: "/components/infinite-scroll" },
   { name: "Button", path: "/components/button" },
   { name: "Dialog", path: "/components/dialog" },
+  { name: "Toast", path: "/components/toast" },
 ];
 
 const Layout = () => {

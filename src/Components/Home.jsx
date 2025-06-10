@@ -10,6 +10,7 @@ const components = [
   { title: "Debounced Search With Tanstack Query", route: "/components/debounced-search-with-tanstack-query" },
   { title: "Button", route: "/components/button" },
   { title: "Dialog", route: "/components/dialog" },
+  { title: "Toast", route: "/components/toast" },
 ];
 
 const Home = () => {

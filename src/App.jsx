@@ -9,6 +9,7 @@ import DebouncedSearchTanstackDemo from "./UI/Debounced Search with Tanstack Que
 import InfiniteScrollDemo from './UI/Infinite Scroll/Demo'
 import ButtonDemo from './UI/Button/Demo'
 import DialogDemo from './UI/Dialog/Demo'
+import ToastDemo from './UI/Toast/Demo'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/components/infinite-scroll" element={<InfiniteScrollDemo />} />
           <Route path="/components/button" element={<ButtonDemo />} />
           <Route path="/components/dialog" element={<DialogDemo />} />
+          <Route path="/components/toast" element={<ToastDemo />} />
         </Route>
       </Routes>
     </BrowserRouter>
